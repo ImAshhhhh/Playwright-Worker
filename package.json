@@ -1,0 +1,13 @@
+{
+  "name": "playwright-worker",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "@cloudflare/playwright": "^0.0.15"
+  },
+  "devDependencies": {
+    "wrangler": "^4"
+  }
+}
